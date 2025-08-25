@@ -1,4 +1,4 @@
-import { MessageSquare } from "lucide-react";
+import { MessagesSquare } from "lucide-react";
 
 const NoChatSelected = () => {
   return (
@@ -11,15 +11,15 @@ const NoChatSelected = () => {
               className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center
              justify-center animate-bounce"
             >
-              <MessageSquare className="w-8 h-8 text-primary " />
+              <MessagesSquare className="w-8 h-8 text-primary " />
             </div>
           </div>
         </div>
 
         {/* Welcome Text */}
-        <h2 className="text-2xl font-bold">Welcome to Chatty!</h2>
+        <h2 className="text-2xl font-bold">Welcome to wurble!</h2>
         <p className="text-base-content/60">
-          Select a conversation from the sidebar to start chatting
+          Start wurble'in with someone in your contacts from sidebar!
         </p>
       </div>
     </div>
